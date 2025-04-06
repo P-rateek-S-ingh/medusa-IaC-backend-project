@@ -20,7 +20,7 @@ resource "aws_ecs_task_definition" "medusa" {
       environment = [
         {
           name  = "DATABASE_URL"
-          value = "postgres://${var.db_username}:${var.db_password}@${aws_rds_instance.medusa_db.address}:5432/medusa"
+          value = "postgres://${var.db_username}:${var.db_password}@${aws_db_instance.medusa_db.address}:5432/medusa"
         }
       ]
     }

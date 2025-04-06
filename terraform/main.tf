@@ -18,7 +18,7 @@ module "vpc" {
   enable_dns_hostnames = true
 }
 
-resource "aws_rds_instance" "medusa_db" {
+resource "aws_db_instance" "medusa_db" {
   identifier           = "medusa-db"
   engine               = "postgres"
   instance_class       = "db.t3.micro"
