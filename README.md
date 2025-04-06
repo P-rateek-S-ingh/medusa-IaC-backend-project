@@ -1,5 +1,8 @@
 # medusa-IaC-backend-
-
+## 🎦📹🎥Video link:
+```bash
+https://drive.google.com/file/d/1ZN7x2w-yzw2OOuqQvJdwujpciZqY4mVt/view?usp=sharing
+```
 # 🚀 Medusa Headless Commerce Deployment on AWS using Terraform
 
 This project provisions infrastructure on AWS to deploy [Medusa](https://medusajs.com/), a modern, open-source, headless commerce engine. It uses **Terraform** for Infrastructure as Code (IaC) to set up and run Medusa on **ECS Fargate**, fronted by an **Application Load Balancer**, with a **PostgreSQL database** hosted on **RDS** and container images stored in **ECR**.
