@@ -7,10 +7,10 @@ resource "aws_lb" "medusa_alb" {
 }
 
 resource "aws_lb_target_group" "medusa_tg" {
-  name     = "medusa-tg"
-  port     = 9000
-  protocol = "HTTP"
-  vpc_id   = module.vpc.vpc_id
+  name        = "medusa-tg"
+  port        = 9000
+  protocol    = "HTTP"
+  vpc_id      = module.vpc.vpc_id
   target_type = "ip"
 
   health_check {
